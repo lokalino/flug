@@ -1,0 +1,16 @@
+
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: changeColor 5s infinite;
+  }
+  
+  .title {
+    font-size: 48px;
+    color: #fff;
+  }
+  

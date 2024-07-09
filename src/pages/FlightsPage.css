@@ -1,0 +1,25 @@
+
+
+.flights-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: changeColor 5s infinite; /* Animacija boje */
+  }
+  
+  .flight-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .flight-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    width: 300px;
+  }
+  

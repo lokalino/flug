@@ -1,0 +1,26 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "email": "user@example.com",
+        "password": "password",
+        "balance": 100
+      }
+    ],
+    "flights": [
+      {
+        "id": 1,
+        "from": "Beograd",
+        "to": "Brcko",
+        "price": 300
+      },
+      {
+        "id": 2,
+        "from": "Brcko",
+        "to": "Chicago",
+        "price": 200
+      }
+    ],
+    "transactions": []
+  }
+  

@@ -1,0 +1,14 @@
+
+
+@keyframes changeColor {
+    0% {
+      background-color: var(--primary-color);
+    }
+    50% {
+      background-color: #0056b3; 
+    }
+    100% {
+      background-color: var(--primary-color);
+    }
+  }
+  
