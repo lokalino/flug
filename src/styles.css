@@ -1,0 +1,55 @@
+/* styles.css */
+
+/* Gradijent pozadine koja menja nijanse plave */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #00aaff, #0044ff, #00aaff);
+  background-size: 600% 600%;
+  animation: gradient 15s ease infinite;
+}
+
+/* Animacija pozadine */
+@keyframes gradient {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 100% 100%; }
+  100% { background-position: 0% 0%; }
+}
+
+/* Stil za sve div elemente */
+div {
+  margin: 20px;
+}
+
+/* Stil za input polja */
+input {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Stil za dugmad */
+button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Hover efekat za dugmad */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Stil za naslove */
+h2, h3 {
+  color: #333;
+}
